@@ -1,0 +1,123 @@
+body {
+  margin:0;
+}
+
+/* header */
+
+header{
+  background: linear-gradient(
+    to top,
+    rgba(247, 247, 247, 0.2),
+    rgba(221, 221, 221, 0.8)
+  ),url("../profile/images/blue_sky.jpg");
+  max-width: 100%;
+}
+
+h1 {
+text-align: center;
+font-size:3vw;
+color: #f63232;
+margin: 20px;
+padding-top: 25px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.head {
+  display:flex;
+}
+
+.head h1 {
+  flex-grow: 1;
+}
+
+.profile{
+  width: 10vw;
+  margin:12px;
+  border-radius: 50%;
+  box-shadow: 5px, 5px, rgb(122, 114, 114);
+ }
+
+.dropdown-content {
+  background:white;
+  padding:24px;
+  display:flex;
+  flex-direction:column;
+  opacity:0;
+}
+
+.dropdown .dropdown-content ul li {
+  list-style-type: none;
+}
+
+.menu:hover .dropdown-content {
+  opacity:1;
+}
+
+.intro h2{
+  font-size: 2vw;
+  margin: 20px;
+  color: #f63232;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* nav */
+
+nav ul{
+background-color: #f4f4f4;
+margin: 3px;
+border: solid 3px ;
+border-color: rgb(21, 153, 197);
+text-align: center;
+padding: 10px;
+white-space: nowrap;
+border-radius: 5px;
+}
+
+nav li{
+  width: 33%;
+  display: inline-block;
+  font-size: 2vw;
+  border-color: rgb(21, 153, 197);
+}
+
+.bio ul li a{
+  text-decoration: none;
+  color: rgb(21, 153, 197);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(235, 225, 225);
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer ul{
+  margin: 0;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.row {
+  display:flex;
+  height:150px;
+  border: dashed 2px;
+  border-color: rgb(55, 214, 55);
+  padding: 2px;
+}
+.row img {
+  object-fit: cover;
+}
+
+.row p, .row img{
+  width:50%;
+}
